@@ -1,5 +1,5 @@
 import { API } from 'homebridge';
-import { TuyaSwitchAccessory } from './lib/tuyaSwitchAccessory';
+import { TuyaSwitchAccessory } from './tuyaSwitchAccessory';
 
 
 /*

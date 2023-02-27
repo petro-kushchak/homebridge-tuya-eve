@@ -10,11 +10,11 @@ import {
   import {
     EveHistoryService,
     HistoryServiceEntry,
-  } from './eveHistoryService';
+  } from './lib/eveHistoryService';
 
   import TuyaDevice from 'tuyapi';
-  import EnergyCharacteristicFactory from './EnergyCharacteristics';
-  import { callbackify } from './homebridgeCallbacks';
+  import EnergyCharacteristicFactory from './lib/EnergyCharacteristics';
+  import { callbackify } from './lib/homebridgeCallbacks';
 
 
 const ONOFF_DP = '1';
