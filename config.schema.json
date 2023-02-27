@@ -1,0 +1,46 @@
+{
+  "pluginAlias": "TuyaSwitchEve",
+  "pluginType": "accessory",
+  "singular": true,
+  "schema": {
+    "type": "object",
+    "properties": {
+      "name": {
+        "title": "Name",
+        "type": "string",
+        "required": true,
+        "default": "Main Switch"
+      },
+      "model": {
+        "title": "Model",
+        "type": "string",
+        "required": false,
+        "default": "123456"
+      },
+      "serial": {
+        "title": "Serial",
+        "type": "string",
+        "required": false,
+        "default": "aa-00-00-01"
+      },
+      "updateInterval": {
+        "title": "Update Interval",
+        "type": "number",
+        "required": false,
+        "default": "5000"
+      },
+      "id": {
+        "title": "Tuya Device Id",
+        "type": "string",
+        "required": true,
+        "default": "00000000000000000000"
+      },
+      "key": {
+        "title": "Tuya Device Id",
+        "type": "string",
+        "required": true,
+        "default": "00000000000000000000"
+      }
+    }
+  }
+}
